@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css?family=Lora&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+h2 {
+  font-size: 40px !important;
+  font-weight: 600 !important;
+}
+@media screen and (max-width: 771px) {
+  h2 {
+    font-size: 36px !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  h2 {
+    font-size: 22px !important;
+  }
+}
+
+.el-checkbox__inner {
+  display: none !important;
+}
+.el-checkbox__input.is-checked + .el-checkbox__label {
+  color: black;
+}
+.icon {
+  display: none !important;
+}
+.modal .el-button {
+  display: inline-block;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+  background: #7f3397;
+  border: 1px solid #dcdfe6;
+  color: #606266;
+  -webkit-appearance: none;
+  text-align: center;
+  box-sizing: border-box;
+  outline: 0;
+  margin: 0;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  font-weight: 600;
+  padding: 12px 20px;
+  font-size: 17px;
+  border-radius: 7px;
+  letter-spacing: 1.5px;
+  font-family: Lora, serif;
+  text-transform: uppercase;
+  font-family: "Lora", serif;
+  color: white !important;
+  width: 280px !important;
+  margin-top: 20px !important;
+  &:hover {
+    background: #b40701;
+  }
+}
+.formEl {
+  width: 82% !important;
+  padding: 10px 0;
+  font-family: "Lora", serif;
+  margin: 0 auto;
+}
+.modal .el-input__inner {
+  -webkit-appearance: none;
+  background-color: #fff;
+  background-image: none;
+  border-radius: 0px;
+  border: 1px solid #6a6868;
+  border-bottom: 1px solid #7f3397;
+  box-sizing: border-box;
+  color: #606266;
+  display: inline-block;
+  font-size: inherit;
+  height: 40px;
+  line-height: 40px;
+  outline: 0;
+  // padding: 0 15px;
+  -webkit-transition: border-color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: border-color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+  width: 100%;
+  border-top-width: 0px !important;
+  border-right-width: 0px !important;
+  border-left-width: 0px !important;
+}
+
+.el-textarea__inner {
+  border: 1px solid rgb(106, 104, 104) !important;
+}
+.el-input__inner {
+  border: 1px solid rgb(106, 104, 104) !important;
+}
+.el-select .el-input.is-focus .el-input__inner {
+  border-color: #7f3397;
+}
+
+.el-select .el-input.is-hover .el-input__inner {
+  border-color: #7f3397;
+}
+.modal .sliderBlock .el-input__inner {
+  -webkit-appearance: none;
+  background-color: #fff;
+  background-image: none;
+  border-radius: 4px;
+  border: 1px solid #dcdfe6 !important;
+  box-sizing: border-box;
+  color: #606266;
+  display: inline-block;
+  font-size: inherit;
+  height: 32px;
+  line-height: 40px;
+  outline: 0;
+  padding: 0 15px;
+  -webkit-transition: border-color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: border-color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+  width: 100%;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-family: "Lora", serif;
+  color: #67686b !important;
+}
+.dost {
+  width: 100%;
+  text-align: center;
+  color: #7f3397;
+  font-size: 16px;
+  font-weight: 600;
+}
+button {
+  font-family: "Lora", serif;
+  background-color: #7f3397 !important;
+  text-transform: uppercase;
+  font-weight: 600 !important;
+  border: none !important;
+  &:hover {
+    background-color: #943caf !important;
+  }
+}
+.mini {
+  font-size: 12px;
+  text-align: center;
+  margin: 10px 5px;
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: 0.1s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active до версии 2.1.8 */ {
+  opacity: 0;
+  transform: translateY(-50%);
+}
+.el-picker-panel__icon-btn{
+  background-color: #fff !important;
+}
+@media screen and (max-width: 771px) {
+  .modal {
+    overflow: scroll;
+  }
+  .el-scrollbar__view {
+    width: 450px !important;
+    li {
+      line-height: normal !important;
+      padding: 10px;
+      span {
+        white-space: normal;
+      }
+      font-size: 10px;
+    }
+  }
+  .modal .el-button {
+    width: 200px !important;
+    font-size: 14px;
+  }
+  .el-button {
+    opacity: 1 !important;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .el-scrollbar__view {
+    width: 200px !important;
+    li {
+      line-height: normal !important;
+      padding: 10px;
+      span {
+        white-space: normal;
+      }
+      font-size: 10px;
+    }
+  }
+}

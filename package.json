@@ -1,0 +1,32 @@
+{
+  "name": "BakerStreetCake",
+  "version": "1.0.0",
+  "description": "В нашей кондитерской можно купить различные торты на заказ - свадебный торт, детский торт, капкейки и макарон. Доставка кондитеских изделий в Краснодаре прямо к вашему дому, сделайте подарок для своих близких!",
+  "author": "Ivan",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "aos": "^3.0.0-beta.6",
+    "element-ui": "^2.4.11",
+    "emoji-mart-vue": "^2.6.6",
+    "materialize-css": "^1.0.0-rc.2",
+    "node-sass": "^4.14.1",
+    "nuxt": "^2.0.0",
+    "vue-emoji-picker": "^1.0.1",
+    "vue-feedback-reaction": "^1.1.0",
+    "vue-parallax-js": "^0.2.3",
+    "vue-parallaxy": "^1.1.1",
+    "vue-the-mask": "^0.11.1",
+    "vuejs-countdown": "^0.2.1",
+    "vuelidate": "^0.7.4"
+  },
+  "devDependencies": {
+    "sass": "^1.32.12",
+    "sass-loader": "^8.0.2"
+  }
+}
